@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+h1{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 200px;
+  text-decoration: underline;
+  color:white;
+}
+.p1{
+  text-align: center;
+  margin-top: 20px;
+  color:white;
+}
+header{
+  background-image: url(banner.jpeg);
+  height: 600px;
+}
+.social{
+  width: 20px;
+  height:20px;
+  border-radius: 50%;
+}
+.media{
+  text-align: center;
+  padding:30px;
+  
+}
+.headerbox{
+  display: flex;
+  width:80%;
+  height: 80px;
+  background-color: white;
+  margin: auto;
+  justify-content: space-between;
+}
+.div1{
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width:80px;
+  height: 80px;
+  
+}
+.flex{
+  font-size: 24px;
+  color: #ea513e;
+  margin-left: 30px;
+}
+.link{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  text-decoration: none;
+  color:black;
+}
+.let{
+  width: 150px;
+  height: 30px;
+  background-color:#ea513e ;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+.box1{
+  height: 200px;
+  width: 250px;
+  background-color: #5cbd9d;
+}
+.box2{
+  height: 200px;
+  width: 250px;
+  background-color: #e67f31;
+}
+.box3{
+  height: 200px;
+  width: 250px;
+  background-color: #3998db;
+}
+.box4{
+  height: 200px;
+  width: 250px;
+  background-color:#68cd73 ;
+}
+.bigbox{
+  display: flex;
+  justify-content:space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+
+}
+.img1{
+  height: 200px;
+  width: 250px;
+  /* margin-left: 40px; */
+  /* margin-right: 40px; */
+   
+}
+.img{
+display: flex;
+justify-content:space-between;
+/* margin-right: 25px; */
+}
+.img2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.imgcontainer{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+h2{
+  font-size: 24px;
+  text-decoration:underline;
+  padding-bottom: 20px;
+
+}
+.h2{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.imgmember{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.member{
+  margin-right: 70px;
+  margin-left: 70px;
+  display: flex;
+  justify-content:space-between;
+  }
+  .design{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  
+  }
+  .red1{
+    width: 300px;
+    height: 30px;
+    background-color:#e7e7e7;
+    margin-top: 10px;
+    margin-right: 60px;
+  }
+  .red2{
+    width: 270px;
+    height: 30px;
+    background-color: #e67f31;
+  }
+  .red3{
+    width: 240px;
+    height: 30px;
+    background-color: #e67f31;
+  }
+  .red4{
+    width: 210px;
+    height: 30px;
+    background-color: #e67f31;
+
+  }
+  
+  .sec4{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .sec41{
+    width:40%;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p2{
+    margin-top: 20px;
+  }
+  .para{
+    width: 40%;
+    margin-left: 60px;
+  }
+  .blankbox{
+    width: 500px;
+    height: 30px;
+    border: solid 1px black;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+  }
+  .blankbox1{
+    width: 500px;
+    height: 100px;
+    border: solid 1px black;
+    margin-top: 10px;
+  }
+  .sec5{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-top: 10px;
+  }
+  .send{
+    width: 500px;
+    height: 30px;
+    background-color: #ea513e;
+    margin-top: 20px;
+    text-align: center;
+    padding-top:10px;
+  }
+  footer{
+    display: flex;
+    margin-top:100px;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+  }
+  .top{
+    width: 180px;
+    height: 30px;
+    background-color: #ea513e;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration:none;
+  }
